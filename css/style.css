@@ -33,6 +33,16 @@ section {
     padding: 20px;
 }
 
+/** Menu **/
+
+.menu-item {
+    padding: 5px;
+}
+.menu-item active {
+    text-decoration: underline;
+    text-decoration-color: #1d1d1d;
+}
+
 /** Header **/
 
 #profile-pic {
