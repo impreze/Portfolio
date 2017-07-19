@@ -26,23 +26,23 @@
 <body>
 
     <div id="wrapper" class="container">
-        <div id="header" class="row">
-            <div class="col-md-2 offset-md-3">
+        <section id="header" class="row">
+            <div id="profile-pic" class="col-md-2 offset-md-3">
                 <img src="images/portfolio-pic.png" class="img-fluid rounded-circle">
             </div>
-            <div class="col-md-4">
-                <h1>Sylvester Ezeani</h1>
-                <h3>Web Developer</h3>
+            <div id="profile-card" class="col-md-4">
+                <h2>Sylvester Ezeani</h2>
+                <h5>Web Developer</h5>
             </div>
-        </div>
-        <div id="blurb" class="row">
+        </section>
+        <section id="blurb" class="row">
             <div class="col-md-6 offset-md-3">
                 <p>Hi, I'm Sylvester. I'm a web and software developer in the Washington, D.C. metropolitan area.</p>
                 <p>I enjoy working on UI Design/Development as well as Back-end development. I have worn many hats from Developer, IT analyst, QA tester, to Software Architect.</p>
                 <p>Please feel free to take a look at a couple <a href="projects.html" title="My Projects">projects</a>, my <a href="https://github.com/impreze" target="_blank" title="My GitHub">GitHub</a>, or my <a href="http://www.sylvesterezeani.com/blog" target="_blank" title="My Blog">Blog</a>.</p>
             </div>
-        </div>
-        <div id="contact">
+        </section>
+        <section id="contact">
             <div class="row">
                 <div class="col-md-6 offset-md-3">
                     <ul>
@@ -53,7 +53,28 @@
                     </ul>
                 </div>
             </div>
-        </div>
+        </section>
+
+        <!-- Sidebar -->
+        <aside id="menu" class="menu col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="menu-toggle text-right"><i class='fa fa-times'></i></div>
+            <div class="menu-content text-center">
+                <h4>MENU</h4>
+                <ul class="nav">
+                    <li><a href="#">item 1</a></li>
+                    <li><a href="#">item 2</a></li>
+                    <li><a href="#">item 3</a></li>
+                    <li><a href="#">item 4</a></li>
+                </ul>
+                <br>
+                <br>
+                <h4>CONTACT </h4>
+                <ul class="nav">
+                    <li><a href="https://www.codepen.io/impreze" target="_blank">Codepen <i class="fa fa-codepen"></i></a></li>
+                    <li><a href="https://www.github.com/impreze" target="_blank">Github <i class="fa fa-github"></i></a></li>
+                </ul>
+            </div>
+        </aside>
     </div>
 
     <!-- JQuery -->

@@ -24,6 +24,29 @@ a:hover {
     color: #898989;
     text-decoration: none;
 }
-#header img {
-    max-width: 150px;
+#wrapper {
+    margin-top: 50px;
+}
+section {
+    padding: 20px;
+}
+
+/** Header **/
+
+#profile-pic {
+    max-width: 200px;
+    height: auto;
+}
+#profile-card {
+    margin: auto 0px;
+}
+@media only screen and (max-width: 768px) {
+    #header {
+        text-align: center;
+    }
+    #profile-pic {
+        max-width: 150px;
+        height: auto;
+        margin: 0 auto 20px auto;
+    }
 }
