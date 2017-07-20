@@ -68,3 +68,13 @@ section {
 }
 
 /** Contact **/
+
+
+/** CV **/
+
+.cv {
+    font-size: 14px;
+}
+.cv h3 {
+    margin-bottom: 20px;
+}
