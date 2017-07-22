@@ -1,6 +1,6 @@
 $(document).ready(function () {
     wow = new WOW({
-        mobile: false, // default
+        mobile: true, // default
     })
     wow.init();
 });
